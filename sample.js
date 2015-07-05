@@ -11,6 +11,7 @@
  * =================================================================
  */
 
+// #todo - single line todo added
 var CSRFP = {
 	CSRFP_TOKEN: 'csrfp_token',
 	/**
@@ -25,7 +26,7 @@ var CSRFP = {
 	 * With or without csrf token
 	 *
 	 * @param: string, url
-	 *
+	 * TODO - added todo to an existing comment
 	 * @return: boolean, 	true if csrftoken is not needed
 	 * 						false if csrftoken is needed
 	 */
@@ -42,7 +43,7 @@ var CSRFP = {
 	 * function to get Auth key from cookie And return it to requesting function
 	 *
 	 * @param: void
-	 * @todo: make this more functional @priority: medium
+	 * @todo: make this more functional @priority: high
 	 * @return: string, csrftoken retrieved from cookie
 	 */
 	_getAuthKey: function() {
@@ -123,14 +124,6 @@ var CSRFP = {
 				var target = obj[CSRFP.CSRFP_TOKEN];
 				target.parentNode.removeChild(target);
 			}
-            /**
-             * #todo: what if todo doesn't exist, make a case for that
-             * @deadline: 21/01/2014 @tags: abhinavdahiya, minhazav
-             * @assign: mebjas
-             @label: csrf, google, gsoc
-             * @remindon: 19/01/2014
-             * @priority: high
-             */
 			
 			// Trigger the functions
 			var result = fun.apply(this, [event]);
