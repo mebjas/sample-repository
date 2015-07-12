@@ -57,7 +57,7 @@ void expression(string s) {
     int len = s.length(), i = 0;
     node *t = &root;
     while(i < len) {
-        if (t->isLast && !t->hasFurther) { // starting todo
+        if (t->isLast && !t->hasFurther) {
             cout<<" "; // @todo - make an expansion for this
                     // at the top
             t = &root;
