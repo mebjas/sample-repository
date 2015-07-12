@@ -15,13 +15,6 @@ struct node {
     bool nothing;
 };
 
-
-// format 1
-// @todo - make this function more structred
-// and compact
-// and nice
-// @deadline - 12 dec 2014
-// @tags - ben, tim, hawk
 node *getNode(bool last) {
     node *n = new node;
     for(int i = 0; i < 26; i++) {
