@@ -18,11 +18,11 @@ struct node {
 // ^ format 2
 
 // format 1
-// @todo - make    this function more structred
+// @todo - make this function more structred
 // and compact   
 // and nice
-// @deadline - 12 dec 2014
-// @tags - ben, tim, hawk
+// @deadline - 22 week
+// @tags - abhinavdahiya, dhruvagarwal, omerjerk
 node *getNode(bool last) {
     node *n = new node;
     for(int i = 0; i < 26; i++) {
