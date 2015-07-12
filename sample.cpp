@@ -46,7 +46,7 @@ void insert(string str) {
         } else {
             node *n = getNode(i == len-1);
             t->ptrs[str[i]-'A'] = n;
-            t = t->ptrs[str[i]-'A']; // @todo - define the expansion for this at the top @deadline 20th July
+            t = t->ptrs[str[i]-'A'];
         }
         ++i;
     }
