@@ -403,7 +403,6 @@ class csrfProtector
 			self::$config['tokenLength'] = 32;	//set as default
 		}
 
-		//if $length > 128 throw exception #todo 
 
 		if (function_exists("hash_algos") && in_array("sha512", hash_algos())) {
 			$token = hash("sha512", mt_rand(0, mt_getrandmax()));
