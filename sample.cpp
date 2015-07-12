@@ -105,7 +105,7 @@ int main() {
 /**
  * #todo: what if todo doesn't exist, make a case for that
  * @deadline: 21/01/2014 @labels: abhinavdahiya, minhazav
- * @assign: mebjas
+ * @assign: abhinavdahiya
  * @remindon: 19/01/2014
  * @priority: high
  */
