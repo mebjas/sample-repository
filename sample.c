@@ -92,15 +92,3 @@ int main() {
     
 }
 
-/* 
-    comment
-    // @ToDo - make todo ci very scalable and fast
-    and more important sexy
-    bla
-    ble
-     * @deadline: 21/01/2014 bla vla bla @tags: abhinavdahiya, minhazav
-     * @assign: mebjas
-     * @remindon: 19/01/2014
-     @ lebel: googleit, microsd
-
-*/
