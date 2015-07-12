@@ -75,11 +75,6 @@ void expression(string s) {
     cout<<endl;
 }
 
-/**
-    this is amazing test
-    @todo -  this is another type of message, this indicates we have something to todo here
-    @deadline - 4823746827, @tags - test, todo-ci, awsomeness
-*/
 int main() {
     for(int i = 0; i < 26; i++) {
         root.ptrs[i] = NULL;
