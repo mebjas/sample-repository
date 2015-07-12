@@ -113,6 +113,7 @@ class csrfProtector
 			self::$config['tokenLength'] = intval($length);
 		
 		//action that is needed to be taken in case of failed authorisation
+		// TODO adding test todo to test something
 		if ($action != null)
 			self::$config['failedAuthAction'] = $action;
 
