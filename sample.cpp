@@ -12,10 +12,6 @@ struct node {
     bool hasFurther;
 };
 
-// this is amazing product
-// ^ @todo - make this structure memory efficient by using
-//  a linked list in place of an array 
-// ^ format 2
 
 // format 1
 // @todo - make this function more structred
