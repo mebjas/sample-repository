@@ -64,6 +64,7 @@ impl Drop for ColorAttachment {
             }
         }
     }
+    // TODO: test new mail updates when new todos are added.
 }
 
 /// This structure represents an offscreen context
