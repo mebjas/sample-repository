@@ -13,6 +13,7 @@ class logFileWriteError extends \exception {};
 class baseJSFileNotFoundExceptio extends \exception {};
 class incompleteConfigurationException extends \exception {};
 
+// TODO: testing extension in mail sent in this todo
 class csrfProtector
 {
 	/*
