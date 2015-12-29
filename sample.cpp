@@ -25,7 +25,7 @@ node *getNode(bool last) {
         n->ptrs[i] = NULL;
     }
     n->isLast = last;
-    return n;
+    return n; // TODO: added new one, to check new mail format
 }
 
 node root;
