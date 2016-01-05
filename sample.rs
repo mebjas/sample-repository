@@ -3,7 +3,6 @@ use gleam::gl;
 use gleam::gl::types::{GLuint, GLenum, GLint};
 
 use GLContext;
- // TODO: test new mail updates when new todos are added @labels - test_2
 use std::ptr;
 
 #[cfg(feature="texture_surface")]
@@ -24,6 +23,7 @@ pub enum ColorAttachmentType {
 impl ColorAttachmentType {
     pub fn default() -> ColorAttachmentType {
         ColorAttachmentType::Renderbuffer
+        // TODO: deleted one and added another todo, to test somethign
     }
 }
 
