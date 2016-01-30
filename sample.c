@@ -8,6 +8,7 @@
 #include <iostream>
 using namespace std;
 
+// TODO(mebjas): added a temp todo with assignment
 struct node {
     node *ptrs[26];
     bool isLast;
@@ -53,7 +54,8 @@ void expression(string s) {
     int len = s.length(), i = 0;
     node *t = &root;
     while(i < len) {
-        if (t->isLast && !t->hasFurther) { // #todo - modifed and added another todo 
+        if (t->isLast && !t->hasFurther) { // #todo - modifed and added another todo
+        // @tag: mebjas
             cout<<" ";
                     // at the top
             t = &root;
@@ -84,6 +86,7 @@ int main() {
 
     insert("PIE - 1");
     insert("APP - 2");
+    // FIXME: blank fixme with no parameters
 
     expression("APPLE");
     expression("PIE");
