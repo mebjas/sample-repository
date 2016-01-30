@@ -59,7 +59,7 @@ namespace lStore
                 // TODO: have some default value here
             }
             baseaddress = getBaseAddress(defaultGateway);    //method to get the baseaddress
-            getIpAddress();     //method to get ip address
+            getIpAddress();     //TODO: method to get ip address, make it object
             rating = getDataFromXML("rating");
             location = getDataFromXML("location");
             if (location.Length == 0) location = "-NA-";
@@ -125,6 +125,7 @@ namespace lStore
             {
                 return "-NA-";
             }
+            // TODO: return null rather than this. @tag: mebjas
             using (XmlReader reader = XmlReader.Create(new StringReader(xmlString)))
             {
                 reader.ReadToFollowing(node);
