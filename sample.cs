@@ -25,7 +25,7 @@ namespace lStore
         public static string networkname = Environment.MachineName;     //network username
 
         //public static string sysManufacturer ;
-        /* #todo: need to get code to fetch this */
+        /* #todo: need to get code to fetch this @tag mebjas */
         public static string ram;                                       //total user ram 
         public static int cores = Environment.ProcessorCount;           //total no of logical cores
 
@@ -56,6 +56,7 @@ namespace lStore
             catch (Exception ex)
             {
                 macAddress = "NA";
+                // TODO: have some default value here
             }
             baseaddress = getBaseAddress(defaultGateway);    //method to get the baseaddress
             getIpAddress();     //method to get ip address
