@@ -30,7 +30,7 @@ namespace lStore
         public static int cores = Environment.ProcessorCount;           //total no of logical cores
 
         //public static string processors;
-        /* #todo - need to get code to fetch this */
+        /* #todo - need to get code to fetch this @assign: mebjas @tag: mebjas */
         public static string resolution;                                //computer screen resolution in W x H
         public static string osInfo;                                    //computer's os detail
         public static string rating;                                    //user's rating @from XML
